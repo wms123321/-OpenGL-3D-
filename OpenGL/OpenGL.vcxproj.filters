@@ -18,9 +18,6 @@
     <ClCompile Include="src\Application.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="app\app.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="src\Renderer.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -83,9 +80,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="app\app.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="src\Renderer.h">
       <Filter>头文件</Filter>
     </ClInclude>
