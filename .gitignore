@@ -1,0 +1,38 @@
+# 忽略Visual Studio的构建输出和中间文件
+[Bb]in/
+[Oo]bj/
+
+# 忽略Visual Studio的用户特定文件
+*.user
+*.userosscache
+*.sln.docstates
+
+# 忽略Visual Studio的临时文件
+.vs/
+x64/
+x86/
+[Dd]ebug/
+[Rr]elease/
+build/
+
+# 忽略NuGet包
+[Nn]u[Gg]et/
+*.nupkg
+packages/
+
+# 忽略日志和数据库文件
+*.log
+*.sqlite
+*.suo
+*.opensdf
+*.sdf
+
+# 忽略MacOS系统文件
+.DS_Store
+
+# 可选项：如果你在项目中使用了预编译头，可以忽略其编译结果
+*.pch
+
+# 可选项：忽略由CMake或其它生成器生成的构建目录
+out/
+CMakeBuild/
